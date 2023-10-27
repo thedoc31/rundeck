@@ -6,7 +6,7 @@ FROM debian:bullseye
 MAINTAINER Jordan Jethwa
 
 ENV SERVER_URL=https://localhost:4443 \
-    RUNDECK_STORAGE_PROVIDER=db \
+    RUNDECK_STORAGE_PROVIDER=file \
     NO_LOCAL_MYSQL=false \
     LOGIN_MODULE=RDpropertyfilelogin \
     JAAS_CONF_FILE=jaas-loginmodule.conf \
